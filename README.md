@@ -5,7 +5,7 @@
 Install it from npm and include it in your React build process (using [Webpack](http://webpack.github.io/), [Browserify](http://browserify.org/), etc).
 
 ```bash
-npm install --save npm-react-component-kit
+npm install --save-dev npm-react-component-kit
 ```
 or:
 ```bash
