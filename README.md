@@ -12,7 +12,7 @@ cd npm-react-component-kit
 
 make clean
 
-make start
+make setup
 ```
 
 > Write and export your component in './src/index.js' and import the same component in './examples/src/index.js' so that you can test your component while developing itself.
@@ -29,9 +29,11 @@ npm start
 
 ### Package Publishing
 
+Before publishing you need to change the repository URL, Homepage, Author, Description and Issues URL from the package.json file and run the folowwing commands.
+
 ```
-npm login
-npm publish
+make publish
+
 ```
 
 ## Installation

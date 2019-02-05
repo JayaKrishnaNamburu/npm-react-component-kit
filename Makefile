@@ -1,4 +1,4 @@
-start:
+setup:
 	@echo 'Installing dependencies..'
 	npm install
 	@echo 'Starting server..'
@@ -11,3 +11,11 @@ clean:
 
 build-clean:
 	rm -rf dist
+
+build:
+	@echo 'Build under process'
+	babel src -d dist
+
+publish:
+	npm login
+	npm publish
