@@ -10,7 +10,9 @@ git clone https://github.com/prasanthLalapeta/npm-react-component-kit.git  
 
 cd npm-react-component-kit
 
-npm install
+make clean
+
+make start
 ```
 
 > Write and export your component in './src/index.js' and import the same component in './examples/src/index.js' so that you can test your component while developing itself.
